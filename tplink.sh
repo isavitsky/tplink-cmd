@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Script for TP-Link Esy Smart Switch port configuration
+# Script for TP-Link Easy Smart Switch port configuration
 # Tested on TL-SG105E and TL-SG108PE.
 #
 # Speed:
@@ -17,7 +17,6 @@
 CURL_OPTS="--connect-timeout 5 --max-time 6 --silent"
 
 curl="curl $CURL_OPTS"
-state=DISC
 ip=""
 login=""
 passwd=""
